@@ -1,0 +1,84 @@
+$date
+	Thu Aug 31 15:41:02 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 32 ! r2out [31:0] $end
+$var wire 32 " r1out [31:0] $end
+$var reg 1 # Ruwr $end
+$var reg 1 $ clk $end
+$var reg 32 % datawrite [31:0] $end
+$var reg 5 & r1 [4:0] $end
+$var reg 5 ' r2 [4:0] $end
+$var reg 5 ( rd [4:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 (
+bx '
+bx &
+b1110101011110100000 %
+0$
+1#
+bx "
+bx !
+$end
+#10
+1$
+#20
+b11111111111111111111111111111111 !
+b0 "
+0$
+b0 %
+b1 &
+b0 '
+0#
+#30
+1$
+#40
+0$
+b10001011101101101000 %
+1#
+#50
+1$
+#60
+b10001011101101101000 "
+0$
+b0 %
+0#
+#70
+1$
+#80
+0$
+b1010011101110000100 %
+1#
+#90
+1$
+#100
+b1010011101110000100 "
+0$
+b0 %
+0#
+#110
+1$
+#120
+0$
+b100101101011011110001 %
+1#
+#130
+1$
+#140
+b100101101011011110001 "
+0$
+b0 %
+0#
+#150
+1$
+#160
+0$
