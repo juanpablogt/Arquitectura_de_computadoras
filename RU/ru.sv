@@ -16,8 +16,8 @@ module registersmemory (
         RF[rd] <= datawrite;
       end 
       if (Ruwr==0) begin
-        r1out <= RF[r2];
-        r2out <= RF[r1];
+        r1out <= RF[r1];
+        r2out <= RF[r2];
       end
     end
   
