@@ -17,6 +17,8 @@ module testbench();
       $dumpfile("dump.vcd");
       $dumpvars(1);
       // Escritura
+      Ruwr = 0; r2 = 0; r1 = 1; datawrite = 0; rd = 0;
+      #20;
       Ruwr = 1; datawrite = 481184; rd = 0;
       #20;
       Ruwr = 0; r2 = 0; r1 = 1; datawrite = 0; rd = 0;
